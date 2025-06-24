@@ -23,9 +23,23 @@ url: "" # the base hostname & protocol for your site, e.g. http://example.com
 github_username: YOUR_GITHUB_USERNAME # Replace with your GitHub username
 
 # Build settings
-theme: minima
+theme: jekyll-theme-chirpy # Replaced Minima with Chirpy
 plugins:
   - jekyll-feed
+  - jekyll-seo-tag
+  - jekyll-archives
+
+# Chirpy theme settings
+lang: en # The lang attribute for <html>
+timezone: America/New_York # e.g., America/New_York, Europe/Berlin, Asia/Shanghai
+title_template: "%s | %s" # "%s | <site.title>"
+description_template: "%s" # "<page.description> | <site.description>"
+
+avatar: /assets/images/.gitkeep # Replace with path to your avatar image, e.g., /assets/img/avatar.png or a remote URL
+
+# The CDN host of Chirpy's static assets.
+# See: https://github.com/cotes2020/chirpy-static-assets
+img_cdn: "https://cdn.jsdelivr.net/gh/cotes2020/chirpy-static-assets@6/assets/img"
 
 # Exclude from processing.
 # The following items will not be processed, by default. Create a custom list

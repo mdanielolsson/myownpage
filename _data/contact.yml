@@ -1,0 +1,17 @@
+# Chirpy's contact/social media links
+# Available items are:
+# email, github, twitter, linkedin, facebook, instagram, stack-overflow,
+# keybase, telegram, youtube, spotify, soundcloud, unsplash
+
+# Example:
+# - name: GitHub
+#   type: github # github, twitter, linkedin, ...
+#   url:  https://github.com/your_username # your contact url
+
+# - name: Twitter
+#   type: twitter
+#   url:  https://twitter.com/your_username
+
+# - name: Email
+#   type: email
+#   url:  mailto:your_email@example.com
