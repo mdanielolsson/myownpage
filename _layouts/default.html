@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>{{ page.title | default: site.title }}</title>
+  <link rel="stylesheet" href="{{ "/assets/css/style.css" | relative_url }}">
+  <link rel="alternate" type="application/rss+xml" title="{{ site.title }} - {{ site.description }}" href="{{ "/feed.xml" | relative_url }}">
+</head>
+
+<body>
+
+  <header>
+    <div class="container">
+      <h1><a href="{{ "/" | relative_url }}">{{ site.title }}</a></h1>
+      <p>{{ site.description }}</p>
+      <nav>
+        <ul>
+          <li><a href="{{ "/" | relative_url }}">Home</a></li>
+          <li><a href="{{ "/blog/" | relative_url }}">Blog</a></li>
+          <!-- Add other navigation links here, e.g., About, E-books -->
+          <li><a href="{{ "/ebooks/" | relative_url }}">E-books</a></li>
+        </ul>
+      </nav>
+    </div>
+  </header>
+
+  <main>
+    <div class="container">
+      {{ content }}
+    </div>
+  </main>
+
+  <footer>
+    <div class="container">
+      <p>&copy; {{ "now" | date: "%Y" }} {{ site.title }}. Powered by Jekyll & GitHub Pages.</p>
+      <p>
+        <!-- Replace with your actual social links or remove -->
+        <a href="https://github.com/{{ site.github_username }}" target="_blank" rel="noopener noreferrer">GitHub</a>
+        <!-- <a href="https://twitter.com/your_twitter_handle">Twitter</a> -->
+      </p>
+    </div>
+  </footer>
+
+</body>
+
+</html>

@@ -1,0 +1,178 @@
+/* Basic Reset & Defaults */
+body, h1, h2, h3, p, ul, li, figure, figcaption, blockquote, dl, dd {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
+  line-height: 1.6;
+  color: #333;
+  background-color: #fdfdfd;
+  margin: 0;
+  padding: 20px;
+  font-size: 16px;
+}
+
+.container {
+  max-width: 800px;
+  margin: 0 auto;
+  padding: 0 15px;
+}
+
+/* Header */
+header {
+  background-color: #f0f0f0;
+  padding: 20px 0;
+  border-bottom: 1px solid #ddd;
+  margin-bottom: 30px;
+  text-align: center;
+}
+
+header h1 a {
+  color: #333;
+  text-decoration: none;
+}
+
+header p {
+  color: #666;
+  font-size: 0.9em;
+}
+
+nav ul {
+  list-style: none;
+  padding: 10px 0 0 0;
+  text-align: center;
+}
+
+nav ul li {
+  display: inline;
+  margin-right: 15px;
+}
+
+nav ul li a {
+  text-decoration: none;
+  color: #007bff;
+}
+
+nav ul li a:hover {
+  text-decoration: underline;
+}
+
+/* Main Content */
+main {
+  margin-bottom: 30px;
+}
+
+article.post, article.page {
+  margin-bottom: 40px;
+  padding-bottom: 20px;
+  border-bottom: 1px solid #eee;
+}
+
+article.post:last-child, article.page:last-child {
+  border-bottom: none;
+}
+
+h1, h2, h3 {
+  color: #333;
+  margin-top: 1.5em;
+  margin-bottom: 0.5em;
+  line-height: 1.3;
+}
+
+h1 { font-size: 2.2em; }
+h2 { font-size: 1.8em; }
+h3 { font-size: 1.4em; }
+
+p {
+  margin-bottom: 1em;
+}
+
+a {
+  color: #007bff;
+}
+
+a:hover {
+  text-decoration: underline;
+}
+
+img {
+  max-width: 100%;
+  height: auto;
+  display: block;
+  margin: 10px 0;
+}
+
+/* Post Meta */
+.post-meta {
+  font-size: 0.9em;
+  color: #666;
+  margin-bottom: 15px;
+}
+
+/* Post Navigation */
+.post-nav {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 20px;
+  padding-top: 20px;
+  border-top: 1px solid #eee;
+}
+
+.post-nav a {
+  text-decoration: none;
+}
+
+/* Footer */
+footer {
+  text-align: center;
+  padding: 20px 0;
+  border-top: 1px solid #ddd;
+  font-size: 0.9em;
+  color: #666;
+  margin-top: 40px;
+}
+
+footer p {
+  margin-bottom: 0.5em;
+}
+
+/* Code Blocks - basic styling, theme might provide more */
+pre, code {
+  font-family: "SFMono-Regular", Consolas, "Liberation Mono", Menlo, Courier, monospace;
+  font-size: 0.9em;
+  background-color: #f6f8fa;
+  border-radius: 3px;
+}
+
+code {
+  padding: .2em .4em;
+}
+
+pre {
+  padding: 16px;
+  overflow: auto;
+  line-height: 1.45;
+}
+
+pre code {
+  padding: 0;
+  background-color: transparent;
+  border: none;
+}
+
+blockquote {
+  border-left: 4px solid #007bff;
+  padding-left: 15px;
+  margin-left: 0;
+  margin-right: 0;
+  font-style: italic;
+  color: #555;
+}
+
+/* For images within book listings or similar */
+.ebooks-list img { /* Assuming you might wrap ebooks in a div with this class */
+  max-width: 200px; /* Or your preferred size */
+  margin-bottom: 10px;
+}
